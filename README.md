@@ -7,12 +7,15 @@ Foi uma experiência indescritivel, além de aprender a linguagem python foi me 
 * Algoritimos e logica de programação.
 ***
 * Interação com o usuario e variaveis
+
+Neste código o usuario vai escrever seu nome e o programa vai retornar uma saudação com nome dele.
 ````
 nome = input('Qual é seu nome? ')
 print(f'ola, {nome}')
 ````
 ***
 * Estrutura de condições.
+
 Neste código tem uma entrada de um numero pelo usuario e depois um menu para converter este valor em binario, octal e hexadecimal.
 ````
 num = int(input('Digite um numero: '))
@@ -34,6 +37,7 @@ else:
 ````
 ***
 * Utilizar bibliotecas.
+  
 Neste código entrara 4 nomes de alunos e guardara em uma lista, utilizando a biblioteca random com a função shuffle para embaralhar a ordem dos nomes.
 ````
 from random import shuffle
@@ -50,6 +54,7 @@ print(lista)
 ````
 ***
 * Loops.
+  
 Neste código vai registrar o nome e sexo da pessoa, porém se ela digitar o sexo errado( F/M ) o programa retorna um erro e pede para digitar novamente.
 ````
 #meu programa não tem problema com a resposta vazia
@@ -74,6 +79,7 @@ else:
 ````
 ***
 * Cores.
+  
 Neste código vai avaliar sua provação para um emprestimo para pagar sua casa, se for aprovado retorna alguns valores e um APROVADO em verde ou um NEGADO em vermelho
 ````
 valor_casa = float(input('Qual é o valor da casa? '))
@@ -99,6 +105,7 @@ else:
 ````
 ***
 * Tuplas, listas, dicionarios.
+  
 Neste código vai mostrar o desempenho de um jogador, com uma tabela simples com o nome, gols feitos, total de gols e outra tabela com as informações de
 quantidade de partidas, gols em cada partida e numero total de gols.
 ````
@@ -127,6 +134,7 @@ print(f'No total foram {dados["total"]} gols.')
 ````
 ***
 * Funções.
+  
 Neste código foi criado uma função que vai retornar se a pessoa tem voto obrigatorio, não pode votar ou voto opcional.
 ````
 #posso importar uma biblioteca na função, se for utilizar ela SÓ na função
@@ -154,10 +162,12 @@ print(f'Esta pessoa tem {idade} anos: {voto(ano)}')
 ````
 ***
 * Modularização.
+  
 Neste código foi utilizado dois arquivos, um contendo só as funções e outro o codigo principal.
 ![Captura de tela 2024-09-06 155757](https://github.com/user-attachments/assets/591b33a2-ac16-4722-8ffa-ad5e7419c2b5)
 ***
 * Tratamento de erros.
+  
 Neste código vai ocorre uma ferificação se o site [Pudim](https://www.pudim.com.br) esta acessível ou não
 ````
 import urllib
@@ -174,6 +184,7 @@ else:
 ````
 ****
 * Interação com arquivos.txt.
+  
 Neste código vai se criar um arquivo.txt se ele não existir e quardar dados dentro deste arquivo para quando você fechar o programa poder
 utilizalos mais tarde.
 ![Captura de tela 2024-09-06 161513](https://github.com/user-attachments/assets/a95f8161-2237-4819-8258-16b49f47034f)
